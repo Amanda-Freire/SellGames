@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../imagens/fundo2.png) no-repeat fixed;
+    width: 100%;
+}
+
+.paginas {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-right: 50px;
+    padding-top: 35px;
+    font-size: 1.4em;
+}
+
+#navegacao {
+    width: 100%;
+    height: 100px;
+    background: #2a1b44;
+}
+
+#navegacao a:hover {
+    color: #7f6ebd;
+    cursor: pointer;
+}
+
+#logo {
+    font-size: 2.5em;
+    color: white;
+    padding-left: 100px; 
+    padding-top: 25px;
+    float: left;
+}
+
+#img-logo {
+    width: 30px;
+}
+
+#img-carrinho {
+    width: 30px;
+}
+
+#img-login{
+    width: 30px;
+    float: right;
+    padding-top: 35px;
+    margin-right: 10px;
+}
+
+#titulo {
+    color: #f1f1f1;
+    padding-left: 100px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #8858ed;
+}
+
+#filtros{ 
+    background: #2a1b44;
+    width: 18%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 28px;
+    float: left;
+}
+
+.destaque {
+    background-color: #d3cae4;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.rangePreco {
+    display: flex;
+    justify-content: space-between;
+}
+
+#preco {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 100%; 
+    height: 10px;
+    border-radius: 5px;  
+    background: #ffffff; 
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+}
+
+#preco:hover {
+    opacity: 1; 
+}
+  
+#preco::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background: #2a1b44; 
+    cursor: pointer; 
+}
+  
+#preco::-moz-range-thumb {
+    width: 25px; 
+    height: 25px;
+    border-radius: 50%;
+    background: #8858ed; 
+    cursor: pointer; 
+}
+
+p{
+    font-size: 1.2em;
+}
+
+.filtrar {
+    width: 100px;
+    height: 40px;
+    background-color: #2a1b44;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 30%;
+    font-size: 1em;
+    color: white;
+}
+
+.filtrar:hover {
+    background-color: #8858ed;
+    cursor: pointer;
+}
+
+.linha {
+    width: 75%;
+    float: right;
+    margin: 20px;
+    display: flex;
+}
+
+.produto {
+    flex: 1;
+    text-align: center;
+    background-color: #d3cae4;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.imagensProdutos {
+    height: 150px;
+    width: 120px;
+    border-radius: 10px;
+}

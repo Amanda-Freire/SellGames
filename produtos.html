@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="icon" href="imagens/joystick.png">
+</head>
+<body>
+    <header id="navegacao">
+        <a href="Index.html" id="home"><h1 id="logo"><img src="imagens/joystick-branco.png" id="img-logo"> Sell Games</h1></a>
+        <a href="" class="paginas"><img src="imagens/carrinho.png" id="img-carrinho"></a>
+        <a href="" class="paginas"> Login</a>
+        <img src="imagens/login.png" id="img-login"> 
+        <a href="" class="paginas">Contato</a>
+        <a href="" class="paginas">Promoções</a>
+        <a href="produtos.html" class="paginas">Produtos</a>
+    </header>
+    <div id="titulo">
+        <h1>Produtos</h1>
+    </div>
+    <div id="filtros">
+        <div class="destaque">
+            <h2>Filtrar por: </h2><br>
+            <strong><p>Preço do produto</p></strong><br>
+            <div class="rangePreco">
+                <label for="preco" name="precomin">R$10</label>
+                <input type="range" min="10" max="1000" id="preco" name="preco" step="50">
+                <label for="preco" name="precomax">R$1000</label>
+            </div>
+            <br><br>
+            <strong><p>Categoria</p></strong><br>
+            <input type="checkbox" name="categoria" id="perifericos">
+            <label for="perifericos">Periféricos</label><br>
+            <input type="checkbox" name="categoria" id="jogos">
+            <label for="jogos">Jogos</label><br>
+            <input type="checkbox" name="categoria" id="eletronicos">
+            <label for="eletronicos">Eletrônicos</label><br><br><br>
+            
+            <strong><p>Cor</p></strong><br>
+            <input type="radio" name="cor" id="preto">
+            <label for="preto">Preto</label><br>
+            <input type="radio" name="cor" id="branco">
+            <label for="branco">Branco</label><br>
+            <input type="radio" name="cor" id="vermelho">
+            <label for="vermelho">Vermelho</label><br>
+            <input type="radio" name="cor" id="azul">
+            <label for="azul">Azul</label><br>
+            <input type="radio" name="cor" id="cinza">
+            <label for="cinza">Cinza</label><br>
+            <input type="radio" name="cor" id="amarelo">
+            <label for="amarelo">Amarelo</label><br>
+            <input type="radio" name="cor" id="verde">
+            <label for="verde">Verde</label><br>
+            <input type="radio" name="cor" id="rosa">
+            <label for="rosa">Rosa</label><br>
+            <input type="radio" name="cor" id="roxo">
+            <label for="roxo">Roxo</label><br>
+            <br>
+            <input type="button" value="Filtrar" class="filtrar">
+        </div>
+    </div>
+    <div id="produtos">
+        <div class="linha">
+            <div class="produto">
+                <img src="imagens/jogo2.jpeg" class="imagensProdutos">
+                <h1>aaaaaaaaaaaaaaaaa</h1> 
+            </div>
+            <div class="produto">
+                <img src="imagens/teclado.jpeg" class="imagensProdutos">
+            </div>
+            <div class="produto">
+                <img src="./imagens/jogo1.png" class="imagensProdutos">
+                <h1>caaaaaaaaaaaaaaaaaa</h1>
+            </div>
+        </div>
+        <div class="linha">
+            <div class="produto">
+                <img src="./imagens/jogo1.png" class="imagensProdutos">
+                <h1>caaaaaaaaaaaaaaaaaa</h1>
+            </div>
+            <div class="produto">
+                <img src="./imagens/jogo1.png" class="imagensProdutos">
+                <h1>caaaaaaaaaaaaaaaaaa</h1>
+            </div>
+            <div class="produto">
+                <img src="./imagens/jogo1.png" class="imagensProdutos">
+                <h1>caaaaaaaaaaaaaaaaaa</h1>
+            </div>
+        </div>
+        <div class="linha">
+            <div class="produto">
+                <img src="./imagens/jogo1.png" class="imagensProdutos">
+                <h1>caaaaaaaaaaaaaaaaaa</h1>
+            </div>
+            <div class="produto">
+                <img src="./imagens/jogo1.png" class="imagensProdutos">
+                <h1>caaaaaaaaaaaaaaaaaa</h1>
+            </div>
+            <div class="produto">
+                <img src="./imagens/jogo1.png" class="imagensProdutos">
+                <h1>caaaaaaaaaaaaaaaaaa</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../imagens/fundo2.png) no-repeat fixed;
+    width: 100%;
+}
+
+#navegacao {
+    width: 100%;
+    height: 100px;
+    background: #2a1b44;
+}
+
+#logo {
+    font-size: 2.5em;
+    color: white;
+    padding-left: 100px; 
+    padding-top: 25px;
+    float: left;
+}
+
+#img-logo {
+    width: 30px;
+}
+
+.paginas {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-right: 50px;
+    padding-top: 35px;
+    font-size: 1.4em;
+}
+
+#navegacao a:hover {
+    color: #7f6ebd;
+    cursor: pointer;
+}
+
+#img-carrinho {
+    width: 30px;
+}
+
+#img-login{
+    width: 30px;
+    float: right;
+    padding-top: 35px;
+    margin-right: 10px;
+}
+
+#conteudo-principal {
+    background: #8858ed;
+    width: 50%;
+    float: left;
+    height: 250px;
+    margin-top: 80px;
+    margin-left: 100px; 
+    border-radius: 50px;
+}
+
+#img-jogo1{
+    margin-top: 80px;
+    float: left;
+    margin-left: -100px;
+    margin-bottom: -110px;
+
+}
+
+#conteudo-principal {
+    padding: 30px;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+#conteudo-principal h1, h3{
+    margin: 10px;
+}
+
+#pagina-principal button {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 40px;
+    background: white;
+    border-radius: 50px;
+    color: #8858ed ;
+    font-size: 0.8em;
+    border: none;
+}
+
+#pagina-principal button:hover {
+    color: white;
+    background: #8858ed;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#mais-vendidos {
+    background-color: black;
+    color: white;
+    clear: both;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+#mais-vendidos h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-top: 100px;
+    margin-left: 40px;
+}
+
+#mais-vendidos button.btn-ver {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background: white;
+    border-radius: 50px;
+    color: #8858ed;
+    font-size: 0.5em;
+    border: none;
+    margin-left: 700px;
+}
+
+#mais-vendidos button.btn-ver:hover {
+background: #8858ed;
+color: white;
+border: 1px solid0 white;
+cursor: pointer;
+
+}
+
+.mais-vendido {
+width: 250px;
+margin: 25px;
+margin-top: 90px;
+float: left;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 100px;
+
+}
+.img-mais-vendidos {
+    width: 200px;
+}
+
+button.btn-comprar {
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    background: #7f6ebd;
+    color: white;
+    border-radius: 50px;
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+button.btn-comprar:hover{
+    background: white;
+    color: #7f6ebd;
+    cursor: pointer;
+}
+
+#container-rodape {
+    background: #2a1b44;
+    padding: 20px;
+    margin-left: 0px;
+    
+
+}
+
+#rodape {
+    color: white;
+}
