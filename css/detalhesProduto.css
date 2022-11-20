@@ -62,20 +62,21 @@ body {
 }
 
 #produto {
-    /* background: #0e0a1786; */
     width: 40%;
     float: left;
     height: 550px;
     margin-top: 80px;
-    margin-left: 100px; 
+    margin-left: 80px; 
     padding-left: 6%;
+    margin-bottom: 18px;
 }
 
 #fotosDetalhadas {
     display: flex;
     padding-right: 5px;
     padding-top: 5px;
-    width: 500px;
+    width: 450px;
+    margin-left: 25px;
 }
 
 .imgPrincipal {
@@ -89,7 +90,7 @@ body {
 
 .imgSecundaria {
     flex: 1;
-    height: 80px;
+    height: 85px;
     width: 100px;
     background-color: #f1f1f1;
     text-align: center;
@@ -103,18 +104,18 @@ body {
 }
 
 .img-produtoS {
-    height: 80px;
-    width: 80px;
+    height: 85px;
+    width: 85px;
+    border-radius: 5px;
 }
 
 #infoProduto {
     background: #0e0a1786;
     width: 40%;
     float: right;
-    height: 550px;
+    height: 450px;
     margin-top: 80px;
-    margin-right: 100px; 
-    margin-bottom: 20px;
+    margin-right: 100px;
     border-radius: 20px;
 }
 
@@ -124,11 +125,38 @@ body {
 }
 
 #adicionarCarrinho button {
-    height: 50px;
+    height: 40px;
     width: 250px;
-    margin-left: 170px;
-    margin-top: 120px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8858ed;
+    color: #fff;
+    font-size: 1em; 
+    font-weight: bold;
 }
+
+#adicionarCarrinho button:hover {
+    background-color: #2a1b44;
+    cursor: pointer;
+}
+
+#adicionarCarrinho input {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form {
+    border: 3px solid #8858ed;
+    display: inline-block;
+    padding: 4px;
+    margin-top: 140px;
+    margin-left: 140px;
+    border-radius: 10px;
+  }
 
 hr {
     border: 1.2px solid #f1f1f1;
@@ -161,7 +189,7 @@ hr {
 }
 
 ul {
-    text-decoration: none;
+    list-style: none;
     background-color: #0e0a1786;
     padding-bottom: 30px;
     margin-bottom: 20px;
@@ -175,27 +203,36 @@ li {
 }
 
 #produtosSemelhantes {
-    background-color: #7f6ebd;
+    background-color: #5e43866e;
     width: 90%;
     display: flex;
     margin-left: 5%;
 }
 
-#produto {
+#semelhante {
     flex: 1;
     text-align: center;
+    margin: 15px;
+
 }
 
-#produtosSemelhante {
+#imagemSemelhante {
     width: 160px;
     height: 180px;
-    /* margin: 10px; */
+    border-radius: 10px;
 }
+
+#semelhante p {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 
 footer {
     background-color: #2a1b44;
     color: white;
     text-align: center;
-    margin-top: 100%;
+    margin-top: 50px;
     height: 50px;
 }

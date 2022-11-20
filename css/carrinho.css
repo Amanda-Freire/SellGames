@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../imagens/fundo2.png) no-repeat fixed;
+    width: 100%;
+}
+
+.paginas {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-right: 50px;
+    padding-top: 35px;
+    font-size: 1.4em;
+}
+
+#navegacao {
+    width: 100%;
+    height: 100px;
+    background: #2a1b44;
+}
+
+#navegacao a:hover {
+    color: #7f6ebd;
+    cursor: pointer;
+}
+
+#logo {
+    font-size: 2.5em;
+    color: white;
+    padding-left: 100px; 
+    padding-top: 25px;
+    float: left;
+}
+
+#img-logo {
+    width: 30px;
+}
+
+#img-carrinho {
+    width: 30px;
+}
+
+#img-login{
+    width: 30px;
+    float: right;
+    padding-top: 35px;
+    margin-right: 10px;
+}
+
+#titulo {
+    color: #f1f1f1;
+    padding-left: 100px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #8858ed;
+}
+
+#itensCarrinho {    
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 570px;
+    margin-left: 10%;
+    margin-top: 40px;
+    float: left;
+    background-color: #8858ed;
+    border-radius: 10px;
+}
+
+#item {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#item h3 {
+    color: #000;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#item input {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+#remover {
+    width: 90px;
+    height: 30px;
+    margin-left: 520px;
+    margin-top: 30px;
+    position: absolute;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#remover button {
+    height: 30px;
+    width: 90px;
+    background-color: #8858ed;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#remover button:hover {
+    background-color: #2a1b44;
+    cursor: pointer;
+}
+
+#img-item {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#pagamento {
+    background-color: #8858ed;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+    height: 530px;
+    float: right;
+    margin-right: 8%;
+    margin-top: 40px;
+}
+
+#dadosPagamento {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    height: 490px;
+}
+
+footer {
+    background-color: #2a1b44;
+    color: white;
+    text-align: center;
+    margin-top: 80%;
+    height: 50px;
+}
