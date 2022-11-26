@@ -17,7 +17,7 @@ body {
 #logo {
     font-size: 2.5em;
     color: white;
-    padding-left: 100px; 
+    padding-left: 100px;
     padding-top: 25px;
     float: left;
 }
@@ -44,7 +44,7 @@ body {
     width: 30px;
 }
 
-#img-login{
+#img-login {
     width: 30px;
     float: right;
     padding-top: 35px;
@@ -57,11 +57,11 @@ body {
     float: left;
     height: 250px;
     margin-top: 80px;
-    margin-left: 100px; 
+    margin-left: 100px;
     border-radius: 50px;
 }
 
-#img-jogo1{
+#img-jogo1 {
     margin-top: 80px;
     float: left;
     margin-left: -100px;
@@ -76,7 +76,8 @@ body {
 
 }
 
-#conteudo-principal h1, h3{
+#conteudo-principal h1,
+h3 {
     margin: 10px;
 }
 
@@ -87,7 +88,7 @@ body {
     margin-top: 40px;
     background: white;
     border-radius: 50px;
-    color: #8858ed ;
+    color: #8858ed;
     font-size: 0.8em;
     border: none;
 }
@@ -127,23 +128,24 @@ body {
 }
 
 #mais-vendidos button.btn-ver:hover {
-background: #8858ed;
-color: white;
-border: 1px solid0 white;
-cursor: pointer;
+    background: #8858ed;
+    color: white;
+    border: 1px solid0 white;
+    cursor: pointer;
 
 }
 
 .mais-vendido {
-width: 250px;
-margin: 25px;
-margin-top: 90px;
-float: left;
-text-align: center;
-text-transform: uppercase;
-margin-bottom: 100px;
+    width: 250px;
+    margin: 25px;
+    margin-top: 90px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
 
 }
+
 .img-mais-vendidos {
     width: 200px;
 }
@@ -159,7 +161,7 @@ button.btn-comprar {
     margin-top: 15px;
 }
 
-button.btn-comprar:hover{
+button.btn-comprar:hover {
     background: white;
     color: #7f6ebd;
     cursor: pointer;
@@ -169,10 +171,12 @@ button.btn-comprar:hover{
     background: #2a1b44;
     padding: 20px;
     margin-left: 0px;
-    
-
 }
 
-#rodape {
+footer {
+    background-color: #2a1b44;
     color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px
 }

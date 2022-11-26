@@ -7,17 +7,17 @@
     <title>Sell Games</title>
     <link rel="stylesheet" href="css/carrinho.css">
     <link rel="icon" href="imagens/joystick.png">
-
 </head>
 <body>
     <header id="navegacao">
         <a href="Index.html" id="home"><h1 id="logo"><img src="imagens/joystick-branco.png" id="img-logo"> Sell Games</h1></a>
-        <a href="" class="paginas"><img src="imagens/carrinho.png" id="img-carrinho"></a>
-        <a href="" class="paginas"> Login</a>
+        <a href="carrinho.html" class="paginas"><img src="imagens/carrinho.png" id="img-carrinho"></a>
+        <a href="login.html" class="paginas"> Login</a>
         <img src="imagens/login.png" id="img-login"> 
-        <a href="" class="paginas">Contato</a>
-        <a href="" class="paginas">Promoções</a>
+        <a href="contato.html" class="paginas">Contato</a>
+        <a href="promoções.html" class="paginas">Promoções</a>
         <a href="produtos.html" class="paginas">Produtos</a>
+        <a href="Index.html" class="paginas">Início</a>
     </header>
     <div id="titulo">
         <h1>Meu Carrinho</h1>
@@ -27,19 +27,19 @@
             <div id="item">
                 <img src="imagens/jogoDeadAtLast.jpeg" alt="" id="img-item">
                 <h3>Jogo Dead At Last</h3>
-                <p>Cor: -</p>
-                <p>Quantidade: </p>
+                <p class="corProduto">Cor: Preto</p><br>
+                <p class="qtdeProduto">Quantidade: </p>
                 <input type="number" id="quantidade" value="1">
                 <div id="remover">
-                    <p>R$350,00</p>
+                    <p>R$118,76</p>
                     <button class="remover">Remover</button>
                 </div>
             </div>
             <div id="item">
                 <img src="imagens/mouse.png" alt="" id="img-item">
                 <h3>Console</h3>
-                <p>Cor: Preto</p>
-                <p>Quantidade: </p>
+                <p class="corProduto">Cor: Preto</p><br>
+                <p class="qtdeProduto">Quantidade: </p>
                 <input type="number" id="quantidade" value="1">
                 <div id="remover">
                     <p>R$280,99</p>
@@ -49,8 +49,8 @@
             <div id="item">
                 <img src="imagens/tecladoGamer.png" alt="" id="img-item">
                 <h3>Teclado Gamer Mecânico</h3>
-                <p>Cor: Preto</p>
-                <p>Quantidade: </p>
+                <p class="corProduto">Cor: Preto</p><br>
+                <p class="qtdeProduto">Quantidade: </p>
                 <input type="number" id="quantidade" value="1">
                 <div id="remover">
                     <p>R$380,59</p>
@@ -60,12 +60,35 @@
         </div>
         <div id="pagamento">
             <div id="dadosPagamento">   
-                <h2>Total</h2>
-                <p>R$1011,58</p>
-                <button id="finalizar">Finalizar Compra</button>
+                <h2 class="subtotal">Subtotal: R$780,34</h2>
+                <label for="cep">CEP: </label>
+                <input type="text" name="cep" id="cep" placeholder=" 00000-000">
+                <button id="pesquisarCEP">Pesquisar</button>
+                <h3 class="frete">Frete: R$28,60</h3>
+                <label for="listFormasPgto">Forma de pagamento: </label>
+                <input list="formasPgto" id="listFormasPgto" placeholder="3x Crédito">
+                <datalist id="formasPgto">
+                    <option value="1x Débito"></option>
+                    <option value="2x Crédito"></option>
+                    <option value="3x Crédito"></option>
+                    <option value="4x Crédito"></option>
+                </datalist>
+                <label for="cupom">Tem cupom aí?</label>
+                <input type="text" name="cupom" id="cupom">
+                <button id="adicionarCupom">Adicionar</button>
+                <hr>
+                <h2 class="dadosEntrega">Dados da entrega</h2>
+                <h4 class="destinatario">Destinatário: Xxxxx Xxxxxxxx</h4>
+                <h3 class="pEndereco">Endereço: </h3>
+                <h4 class="endereco">Rua Abc, nº0 <br>
+                    Centro, Guarulhos/SP <br>
+                    CEP 00000-000</h4>
+                <hr>
+                <h2 class="total">Total do pedido: R$808,94</h2>
+                <button id="finalizar">Finalizar pedido</button>
             </div>
         </div>
     </div>
-    <footer>aaa</footer>
+    <footer>Análise e Desenvolvimento de Sistemas 2022.2</footer>
 </body>
 </html>

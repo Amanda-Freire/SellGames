@@ -66,6 +66,7 @@ body {
     width: 18%;
     padding: 10px;
     margin: 20px;
+    margin-left: 60px;
     border-radius: 28px;
     float: left;
 }
@@ -123,7 +124,7 @@ p{
 .filtrar {
     width: 100px;
     height: 40px;
-    background-color: #2a1b44;
+    background-color: #8858ed;
     border: 0;
     border-radius: 10px;
     margin-left: 30%;
@@ -132,12 +133,12 @@ p{
 }
 
 .filtrar:hover {
-    background-color: #8858ed;
+    background-color: #2a1b44;
     cursor: pointer;
 }
 
 .linha {
-    width: 75%;
+    width: 70%;
     float: right;
     margin: 20px;
     display: flex;
@@ -147,13 +148,27 @@ p{
     flex: 1;
     text-align: center;
     background-color: #d3cae4;
-    margin: 25px;
+    margin: 20px;
     padding: 10px;
     border-radius: 20px;
+}
+
+#produtos a {
+    text-decoration: none;
+    color: black;
 }
 
 .imagensProdutos {
     height: 150px;
     width: 120px;
     border-radius: 10px;
+}
+
+footer {
+    background-color: #2a1b44;
+    color: white;
+    text-align: center;
+    margin-top: 60%;
+    height: 40px;
+    padding-top: 20px
 }

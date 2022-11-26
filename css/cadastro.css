@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../imagens/fundo2.png) no-repeat fixed;
+    width: 100%;
+}
+
+.paginas {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-right: 50px;
+    padding-top: 35px;
+    font-size: 1.4em;
+}
+
+#navegacao {
+    width: 100%;
+    height: 100px;
+    background: #2a1b44;
+}
+
+#navegacao a:hover {
+    color: #7f6ebd;
+    cursor: pointer;
+}
+
+#logo {
+    font-size: 2.5em;
+    color: white;
+    padding-left: 100px;
+    padding-top: 25px;
+    float: left;
+}
+
+#img-logo {
+    width: 30px;
+}
+
+#img-carrinho {
+    width: 30px;
+}
+
+#img-login {
+    width: 30px;
+    float: right;
+    padding-top: 35px;
+    margin-right: 10px;
+}
+
+#titulo {
+    color: #f1f1f1;
+    padding-left: 100px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #8858ed;
+}
+
+#cadastro {
+    color: #000;
+    margin-left: 30%;
+    margin-top: 30px;  
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 570px;
+    background-color: #dadada;
+    border-radius: 20px;
+}
+
+#dados {
+    padding-left: 40px;
+}
+
+input {
+    border-radius: 10px;
+    border-width: 0.2px;
+    width: 220px;
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+
+.email {
+    width: 465px;
+}
+
+#politica {
+    margin-left: 15px;
+    margin-top: 15px;  
+    width: 30px;
+    background-color: #dadada;
+}
+
+.criar {
+    background-color: #8858ed;
+    height: 40px;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 32%;
+    margin-top: 40px;
+}
+
+.criar:hover {
+    background-color: #2a1b44;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2a1b44;
+    color: white;
+    text-align: center;
+    margin-top: 5.8%;
+    height: 40px;
+    padding-top: 20px
+}

@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../imagens/fundo2.png) no-repeat fixed;
+    width: 100%;
+}
+
+.paginas {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-right: 50px;
+    padding-top: 35px;
+    font-size: 1.4em;
+}
+
+#navegacao {
+    width: 100%;
+    height: 100px;
+    background-color: #2a1b44;
+
+}
+
+#navegacao a:hover {
+    color: #7f6ebd;
+    cursor: pointer;
+}
+
+#logo {
+    font-size: 2.5em;
+    color: white;
+    padding-left: 100px;
+    padding-top: 25px;
+    float: left;
+}
+
+#img-logo {
+    width: 30px;
+}
+
+#img-carrinho {
+    width: 30px;
+}
+
+#img-login {
+    width: 30px;
+    float: right;
+    padding-top: 35px;
+    margin-right: 10px;
+}
+
+#titulo {
+    color: #f1f1f1;
+    padding-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #8858ed;
+}
+
+.mais-vendido {
+
+    width: 352px;
+    margin: 48px;
+    margin-top: 90px;
+    float: right;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: #f1e8fc;
+    border-radius: 15px;
+    padding-top: 25px;
+
+}
+
+
+.promocoes {
+    flex: 1;
+    text-align: center;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.img-mais-vendidos {
+    width: 200px;
+    text-align: center;
+}
+
+button.btn-comprar {
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    background: #7f6ebd;
+    color: white;
+    border-radius: 50px;
+    font-size: 1em;
+    margin-top: 15px;
+    border: none;
+}
+
+button.btn-comprar:hover {
+    background: white;
+    color: #7f6ebd;
+    cursor: pointer;
+}
+
+#container-rodape {
+    background: #2a1b44;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+footer {
+    background-color: #2a1b44;
+    color: white;
+    text-align: center;
+    margin-top: 85%;
+    height: 40px;
+    padding-top: 20px
+}

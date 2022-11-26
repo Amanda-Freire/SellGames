@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../imagens/fundo2.png) no-repeat fixed;
+    width: 100%;
+}
+
+.paginas {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-right: 50px;
+    padding-top: 35px;
+    font-size: 1.4em;
+}
+
+#navegacao {
+    width: 100%;
+    height: 100px;
+    background: #2a1b44;
+}
+
+#navegacao a:hover {
+    color: #7f6ebd;
+    cursor: pointer;
+}
+
+#logo {
+    font-size: 2.5em;
+    color: white;
+    padding-left: 100px;
+    padding-top: 25px;
+    float: left;
+}
+
+#img-logo {
+    width: 30px;
+}
+
+#img-carrinho {
+    width: 30px;
+}
+
+#img-login {
+    width: 30px;
+    float: right;
+    padding-top: 35px;
+    margin-right: 10px;
+}
+
+#titulo {
+    color: #f1f1f1;
+    padding-left: 100px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #8858ed;
+}
+
+.tela-login {
+    background-color: #dadada;
+    margin-top: 5%;
+    margin-left: 35%;
+    padding: 40px;
+    width: 20%;            
+    border-radius: 30px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0.2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    width: 250px;
+}
+
+#entrar {
+    background-color: #8858ed;
+    padding: 15px;
+    margin-left: 10%;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#entrar:hover {
+    background-color: #2a1b44;
+    cursor: pointer;
+}
+
+#esqueceuSenha {
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+#esqueceuSenha:hover {
+    color: #8858ed;
+}
+
+.tela-login h4 {
+    margin-top: 20px;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+#cadastre {
+    color: #2a1b44;
+    text-decoration: none;
+    font-size: 1.2em;
+    position: absolute;
+    margin-top: -21px;
+    margin-left: 200px;
+}
+
+#cadastre:hover {
+    color: #8858ed;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2a1b44;
+    color: white;
+    text-align: center;
+    margin-top: 5.9%;
+    height: 40px;
+    padding-top: 20px
+}
