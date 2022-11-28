@@ -11,16 +11,15 @@
 
 <body>
     <header id="navegacao">
-        <a href="Index.html" id="home">
-            <h1 id="logo"><img src="imagens/joystick-branco.png" id="img-logo"> Sell Games</h1>
+        <a href="index.html" id="home">
+            <h1 id="logo"><img src="imagens/joystick-branco.png" id="img-logo" alt="Logo">Sell Games</h1>
         </a>
-        <a href="carrinho.html" class="paginas"><img src="imagens/carrinho.png" id="img-carrinho"></a>
+        <a href="carrinho.html" class="paginas"><img src="imagens/carrinho.png" id="img-carrinho" alt="Carrinho"></a>
         <a href="login.html" class="paginas"> Login</a>
-        <img src="imagens/login.png" id="img-login">
-        <a href="contato.html" class="paginas">Contato</a>
+        <img src="imagens/login.png" id="img-login" alt="Login">
         <a href="promoções.html" class="paginas">Promoções</a>
         <a href="produtos.html" class="paginas">Produtos</a>
-        <a href="Index.html" class="paginas">Início</a>
+        <a href="index.html" class="paginas">Início</a>
     </header>
 
     <div id="titulo">
@@ -37,7 +36,10 @@
             <input type="text" placeholder="Crie sua Senha*" required>
             <input type="text" placeholder="Confirme sua Senha*" required>
         </div>
-            <input id="politica" type="checkbox" required>Li e estou de acordo com as <a href="">políticas da empresa e políticas de privacidade</a>.
+            <label for="politica">
+                <input id="politica" type="checkbox" required>
+                Li e estou de acordo com as <a href="">políticas da empresa e políticas de privacidade</a>.
+            </label>
             <button class="criar">Criar conta</button>
     </div>
 

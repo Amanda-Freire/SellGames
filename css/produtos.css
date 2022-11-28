@@ -121,18 +121,34 @@ p{
     font-size: 1.2em;
 }
 
-.filtrar {
+#precoProduto {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#categoria {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#cor {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#filtrar {
     width: 100px;
     height: 40px;
     background-color: #8858ed;
     border: 0;
     border-radius: 10px;
     margin-left: 30%;
+    margin-top: 40px;
     font-size: 1em;
     color: white;
 }
 
-.filtrar:hover {
+#filtrar:hover {
     background-color: #2a1b44;
     cursor: pointer;
 }
@@ -164,11 +180,29 @@ p{
     border-radius: 10px;
 }
 
+button.btn-comprar {
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    background: #7f6ebd;
+    color: white;
+    border-radius: 50px;
+    font-size: 1em;
+    margin-top: 15px;
+    border: none;
+}
+
+button.btn-comprar:hover {
+    background: #2a1b44;
+    color: #fff;
+    cursor: pointer;
+}
+
 footer {
     background-color: #2a1b44;
     color: white;
     text-align: center;
-    margin-top: 60%;
+    margin-top: 70%;
     height: 40px;
     padding-top: 20px
 }

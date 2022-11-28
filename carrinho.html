@@ -10,22 +10,25 @@
 </head>
 <body>
     <header id="navegacao">
-        <a href="Index.html" id="home"><h1 id="logo"><img src="imagens/joystick-branco.png" id="img-logo"> Sell Games</h1></a>
-        <a href="carrinho.html" class="paginas"><img src="imagens/carrinho.png" id="img-carrinho"></a>
+        <a href="index.html" id="home">
+            <h1 id="logo"><img src="imagens/joystick-branco.png" id="img-logo" alt="Logo"> Sell Games</h1>
+        </a>
+        <a href="carrinho.html" class="paginas"><img src="imagens/carrinho.png" id="img-carrinho" alt="Carrinho"></a>
         <a href="login.html" class="paginas"> Login</a>
-        <img src="imagens/login.png" id="img-login"> 
-        <a href="contato.html" class="paginas">Contato</a>
+        <img src="imagens/login.png" id="img-login" alt="Login"> 
         <a href="promoções.html" class="paginas">Promoções</a>
         <a href="produtos.html" class="paginas">Produtos</a>
-        <a href="Index.html" class="paginas">Início</a>
+        <a href="index.html" class="paginas">Início</a>
     </header>
+
     <div id="titulo">
         <h1>Meu Carrinho</h1>
     </div>
+    
     <div id="container">
         <div id="itensCarrinho">
             <div id="item">
-                <img src="imagens/jogoDeadAtLast.jpeg" alt="" id="img-item">
+                <img src="imagens/jogoDeadAtLast.jpeg" alt="Jogo Dead At Last" id="img-item">
                 <h3>Jogo Dead At Last</h3>
                 <p class="corProduto">Cor: Preto</p><br>
                 <p class="qtdeProduto">Quantidade: </p>
@@ -36,7 +39,7 @@
                 </div>
             </div>
             <div id="item">
-                <img src="imagens/mouse.png" alt="" id="img-item">
+                <img src="imagens/mouse.png" alt="Mouse preto" id="img-item">
                 <h3>Console</h3>
                 <p class="corProduto">Cor: Preto</p><br>
                 <p class="qtdeProduto">Quantidade: </p>
@@ -47,7 +50,7 @@
                 </div>
             </div>
             <div id="item">
-                <img src="imagens/tecladoGamer.png" alt="" id="img-item">
+                <img src="imagens/tecladoGamer.png" alt="Teclado Gamer Mecânico 30%" id="img-item">
                 <h3>Teclado Gamer Mecânico</h3>
                 <p class="corProduto">Cor: Preto</p><br>
                 <p class="qtdeProduto">Quantidade: </p>
@@ -61,12 +64,16 @@
         <div id="pagamento">
             <div id="dadosPagamento">   
                 <h2 class="subtotal">Subtotal: R$780,34</h2>
-                <label for="cep">CEP: </label>
-                <input type="text" name="cep" id="cep" placeholder=" 00000-000">
+                <label for="cep">
+                    CEP: 
+                    <input type="text" name="cep" id="cep" placeholder=" 00000-000">
+                </label>
                 <button id="pesquisarCEP">Pesquisar</button>
                 <h3 class="frete">Frete: R$28,60</h3>
-                <label for="listFormasPgto">Forma de pagamento: </label>
-                <input list="formasPgto" id="listFormasPgto" placeholder="3x Crédito">
+                <label for="listFormasPgto">
+                    Forma de pagamento: 
+                    <input list="formasPgto" id="listFormasPgto" placeholder="3x Crédito">
+                </label>
                 <datalist id="formasPgto">
                     <option value="1x Débito"></option>
                     <option value="2x Crédito"></option>
@@ -76,19 +83,24 @@
                 <label for="cupom">Tem cupom aí?</label>
                 <input type="text" name="cupom" id="cupom">
                 <button id="adicionarCupom">Adicionar</button>
+
                 <hr>
+
                 <h2 class="dadosEntrega">Dados da entrega</h2>
                 <h4 class="destinatario">Destinatário: Xxxxx Xxxxxxxx</h4>
                 <h3 class="pEndereco">Endereço: </h3>
                 <h4 class="endereco">Rua Abc, nº0 <br>
                     Centro, Guarulhos/SP <br>
                     CEP 00000-000</h4>
+
                 <hr>
+                
                 <h2 class="total">Total do pedido: R$808,94</h2>
                 <button id="finalizar">Finalizar pedido</button>
             </div>
         </div>
     </div>
+
     <footer>Análise e Desenvolvimento de Sistemas 2022.2</footer>
 </body>
 </html>

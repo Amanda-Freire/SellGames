@@ -10,37 +10,40 @@
 </head>
 <body>
     <header id="navegacao">
-        <a href="Index.html" id="home"><h1 id="logo"><img src="imagens/joystick-branco.png" id="img-logo"> Sell Games</h1></a>
-        <a href="carrinho.html" class="paginas"><img src="imagens/carrinho.png" id="img-carrinho"></a>
+        <a href="index.html" id="home">
+            <h1 id="logo"><img src="imagens/joystick-branco.png" id="img-logo" alt="Logo"> Sell Games</h1>
+        </a>
+        <a href="carrinho.html" class="paginas"><img src="imagens/carrinho.png" id="img-carrinho" alt="Carrinho"></a>
         <a href="login.html" class="paginas"> Login</a>
-        <img src="imagens/login.png" id="img-login"> 
-        <a href="contato.html" class="paginas">Contato</a>
+        <img src="imagens/login.png" id="img-login" alt="Login"> 
         <a href="promoções.html" class="paginas">Promoções</a>
         <a href="produtos.html" class="paginas">Produtos</a>
-        <a href="Index.html" class="paginas">Início</a>
+        <a href="index.html" class="paginas">Início</a>
     </header>
+    
     <div id="titulo">
         <h1>Produtos</h1>
     </div>
+    
     <div id="filtros">
         <div class="destaque">
-            <h2>Filtrar por: </h2><br>
-            <strong><p>Preço do produto</p></strong><br>
-            <div class="rangePreco">
+            <h2>Filtrar por: </h2>
+            <p id="precoProduto">Preço do produto</p>
+                <div class="rangePreco">
                 <label for="preco" name="precomin">R$10</label>
                 <input type="range" min="10" max="1000" id="preco" name="preco" step="50">
                 <label for="preco" name="precomax">R$1000</label>
             </div>
-            <br><br>
-            <strong><p>Categoria</p></strong><br>
+        
+            <p id="categoria">Categoria</p>
             <input type="checkbox" name="categoria" id="perifericos">
             <label for="perifericos">Periféricos</label><br>
             <input type="checkbox" name="categoria" id="jogos">
             <label for="jogos">Jogos</label><br>
             <input type="checkbox" name="categoria" id="eletronicos">
-            <label for="eletronicos">Eletrônicos</label><br><br><br>
+            <label for="eletronicos">Eletrônicos</label>
             
-            <strong><p>Cor</p></strong><br>
+            <p id="cor">Cor</p><br>
             <input type="radio" name="cor" id="preto">
             <label for="preto">Preto</label><br>
             <input type="radio" name="cor" id="branco">
@@ -59,8 +62,8 @@
             <label for="rosa">Rosa</label><br>
             <input type="radio" name="cor" id="roxo">
             <label for="roxo">Roxo</label><br>
-            <br>
-            <input type="button" value="Filtrar" class="filtrar">
+          
+            <input type="button" value="Filtrar" id="filtrar">
         </div>
     </div>
     <div id="produtos">
@@ -70,17 +73,20 @@
                 <img src="imagens/tecladoGamer1.png" class="imagensProdutos">
                 <h3>Teclado Gamer 30%</h3>
                 <p>R$380,59</p>
+                <a href="detalhesProduto.html"><button class="btn-comprar">Comprar</button></a>
                 </a>
             </div>
             <div class="produto">
                 <img src="imagens/teclado-bgrm.png" class="imagensProdutos">
                 <h3>Teclado Gamer</h3>
                 <p>R$330,00</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
             <div class="produto">
                 <img src="./imagens/jogo1.png" class="imagensProdutos">
                 <h3>Cyber Kid Infinite</h3>
                 <p>R$320,00</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
         </div>
         <div class="linha">
@@ -88,16 +94,19 @@
                 <img src="./imagens/headset_bgrm.png" class="imagensProdutos">
                 <h3>Headset Gamer</h3>
                 <p>R$262,99</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
             <div class="produto">
                 <img src="./imagens/mousepad-bgrm.png" class="imagensProdutos">
                 <h3>Mouse pad</h3>
                 <p>R$45,30</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
             <div class="produto">
                 <img src="./imagens/jogoDeadAtLast_bgrm.png" class="imagensProdutos">
                 <h3>Jogo Dead At Last</h3>
                 <p>R$118,76</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
         </div>
         <div class="linha">
@@ -105,19 +114,23 @@
                 <img src="./imagens/cadeiraGamer_bgrm.png" class="imagensProdutos">
                 <h3>Cadeira Gamer</h3>
                 <p>R$821,65</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
             <div class="produto">
                 <img src="./imagens/monitorCurvo_bgrm.png" class="imagensProdutos">
                 <h3>Monitor Curvo</h3>
                 <p>R$2.485,33</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
             <div class="produto">
                 <img src="./imagens/monitor-bgrm.png" class="imagensProdutos">
                 <h3>Monitor</h3>
                 <p>R$682,65</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
         </div>
     </div>
+    
     <footer>Análise e Desenvolvimento de Sistemas 2022.2</footer>
 </body>
 </html>

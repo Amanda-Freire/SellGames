@@ -55,7 +55,7 @@ body {
     background: #8858ed;
     width: 50%;
     float: left;
-    height: 250px;
+    height: 260px;
     margin-top: 80px;
     margin-left: 100px;
     border-radius: 50px;
@@ -66,18 +66,15 @@ body {
     float: left;
     margin-left: -100px;
     margin-bottom: -110px;
-
 }
 
 #conteudo-principal {
     padding: 30px;
     color: white;
     font-size: 1.5em;
-
 }
 
-#conteudo-principal h1,
-h3 {
+#conteudo-principal h1, h3 {
     margin: 10px;
 }
 
@@ -130,24 +127,8 @@ h3 {
 #mais-vendidos button.btn-ver:hover {
     background: #8858ed;
     color: white;
-    border: 1px solid0 white;
+    border: 1px solid 0 white;
     cursor: pointer;
-
-}
-
-.mais-vendido {
-    width: 250px;
-    margin: 25px;
-    margin-top: 90px;
-    float: left;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 100px;
-
-}
-
-.img-mais-vendidos {
-    width: 200px;
 }
 
 button.btn-comprar {
@@ -178,5 +159,5 @@ footer {
     color: white;
     text-align: center;
     height: 40px;
-    padding-top: 20px
+    padding-top: 20px;
 }
